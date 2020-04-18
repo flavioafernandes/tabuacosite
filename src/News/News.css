@@ -1,0 +1,140 @@
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 8px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 2px rgba(0,0,0,1);    
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    background: rgba(0,0,0,0.8); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,1); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(0,0,0,0.5); 
+}
+
+#collasible-nav-dropdown {
+
+    color: #ffffff;
+    text-decoration: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+#newsCard{
+
+    background: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+
+}
+
+#newsCard:hover {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+#lermais {
+
+    position: absolute;
+    right:    5%;
+    bottom:   5%;
+
+}
+
+#myCard {
+
+    margin: 30px;
+    margin-top: 30px;
+    background-color: #e9e9e9;
+    color: #001f3f;
+    border-radius: 0px 0px 20px 20px;
+
+}
+
+
+#imageCardNews{
+
+    max-height: 25rem;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+#NewsDiv {
+    align-items: center;
+    justify-content: center;
+}
+
+#corpoNoticia {
+
+    text-align: justify;
+    text-indent: 5%;
+}
+
+#dataNoticia {
+    
+    padding-top: 10px;
+    text-align: right;
+
+}
+
+#brk-btn {
+    position: absolute;
+    right:    5%;
+    bottom:   5%;
+    width: max-content;
+    height: max-content;
+    background: none;
+    color: white;
+    font-size: 11px;
+    border: 0.2em solid white;
+    padding: 0.5em 1em;
+}
+
+#brk-btn::before{
+
+    content: "";
+    display: block;
+    position: absolute;
+    width: 10%;
+    background: rgba(0, 0, 0, 0.6);
+    height: 0.3em;
+    right: 20%;
+    top: -0.21em;
+    transform: skewX(-45deg);
+    -webkit-transition: all 0.45s cubic-bezier(0.86, 0, 0.07, 1);
+    transition: all 0.45s cubic-bezier(0.86, 0, 0.07, 1);
+
+}
+
+#brk-btn::after{
+    
+    content: "";
+    display: block;
+    position: absolute;
+    width: 10%;
+    background: rgba(0, 0, 0, 0.6);
+    height: 0.3em;
+    left: 20%;
+    bottom: -0.25em;
+    transform: skewX(45deg);
+    -webkit-transition: all 0.45 cubic-bezier(0.86, 0, 0.07, 1);
+    transition: all 0.45s cubic-bezier(0.86, 0, 0.07, 1);
+
+}
+    
+#brk-btn:hover::before{
+    right: 80%;   
+}
+
+#brk-btn:hover::after{
+    left: 80%;   
+}
+
+  

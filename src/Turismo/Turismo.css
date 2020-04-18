@@ -1,0 +1,19 @@
+#voltar {
+
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    height: 3vw;
+    width: 3vw;
+    cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    #voltar{ 
+        height: 7vw;
+        width: 7vw;   
+    }
+  
+  }
