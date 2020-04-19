@@ -82,7 +82,7 @@ function News(){
                 <div>
                     {news.map(newsSingle => (
                         <div key= {newsSingle.id} style={{backgroundColor: '#F5F5F5', display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-around', padding: '20px'}}>
-                            <Card className="bg-dark text-white" style={{width: '50rem'}}>
+                            <Card className="bg-dark text-white" style={{width: '30rem'}}>
                                 <Card.Img src={newsSingle.link}/>
                                 <Card.ImgOverlay id="newsCard" onClick={() => goToCarddetails(newsSingle)}>
                                     <Card.Title>{newsSingle.title}</Card.Title>
