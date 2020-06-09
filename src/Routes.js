@@ -8,6 +8,7 @@ import history from './history';
 import ImageUpload from "./News/ImageUpload";
 import ReadNews from "./News/ReadNews";
 import Turismo from "./Turismo/Turismo"
+import Teste from "./Testes/Teste"
 
 export default class Routes extends Component {
     render() {
@@ -20,6 +21,7 @@ export default class Routes extends Component {
                     <Route path="/ImageUpload" component={ImageUpload} />
                     <Route path="/ReadNews" component={ReadNews} />
                     <Route path="/Turismo" component={Turismo} />
+                    <Route path="/Testes" component={Teste} />
                 </Switch>
             </Router>
         )

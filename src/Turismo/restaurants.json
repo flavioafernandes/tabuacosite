@@ -1,0 +1,106 @@
+[
+    {
+        "id":1,
+        "restaurante": "O Tachinho da Té",
+        "pratos": "Bacalhau à Té, arroz de polvo com gambas, cabrito assado no forno, vitela assada arouquesa, caldeirada de cordeiro, javali",
+        "maps": "https://www.google.com/maps/place/Tachinho+da+T%C3%A9/@41.1171081,-7.5664287,15z/data=!4m2!3m1!1s0x0:0x6a3fd3a193ee5e41?sa=X&ved=2ahUKEwiuv--ys_zoAhW75OAKHVaIDx8Q_BIwE3oECBoQCA",
+        "phone": "+351 254787082",
+        "image": "/restaurantes/te.jpg"
+    },
+    {
+        "id":2,
+        "restaurante": "Tábua d´Aço",
+        "pratos": "Bacalhau com broa na telha, bacalhau à Tábua d Aço, cabrito assado com arroz de forno, costeletinhas de javali, veado estufado",
+        "maps": "https://www.google.com/maps/place/Restaurante+T%C3%A1bua+d'A%C3%A7o/@41.1169355,-7.5710013,15z/data=!4m2!3m1!1s0x0:0xa631300ede0f1b76?sa=X&ved=2ahUKEwip2-6HtfzoAhUsyoUKHaJrANUQ_BIwCnoECBAQCA",
+        "phone": "+351 254781711",
+        "image": "/restaurantes/tabuadaco.jpg"
+    },
+    {
+        "id":3,
+        "restaurante": "Quinta dos Magusteiros",
+        "pratos": "Bacalhau à magusteiros, bacalhau grelhado, polvo à magusteiros, cabrito com batata assada, leitão, nacos de vitela",
+        "maps": "https://www.google.com/maps/place/Quinta+dos+Magusteiros/@41.1342117,-7.5804911,15z/data=!4m2!3m1!1s0x0:0x8735cf7fb37ac876?sa=X&ved=2ahUKEwjatvLTt_zoAhV_AGMBHZVlDh8Q_BIwE3oECBsQCA",
+        "phone": "+351 254782426",
+        "image": "/restaurantes/magusteiros.jpg"
+    },
+    {
+        "id":4,
+        "restaurante": "Paladares do Douro - Plácido Hotel Douro",
+        "pratos": "Bacalhau à Palace, polvo à lagareiro, cabrito assado com batata assada",
+        "maps": "https://www.google.com/maps/place/Pl%C3%A1cido+Hotel+Douro+Tabua%C3%A7o/@41.1195731,-7.5833445,15z/data=!4m2!3m1!1s0x0:0x107151d13b5901d0?sa=X&hl=pt-PT&ved=2ahUKEwist6701v7oAhXailwKHXY_DmEQ_BIwDHoECBsQCA",
+        "phone": "+351 254780140",
+        "image": "/restaurantes/placido.jpg"
+    },
+    {
+        "id":10,
+        "restaurante": "Foz Do Tavora Wine Bar",
+        "pratos": "Francesinha, Bife à Tábua, Tapas",
+        "maps": "https://www.google.com/maps/place/Foz+do+T%C3%A1vora+Bar/@41.157171,-7.584069,15z/data=!4m5!3m4!1s0x0:0x510a43d1bbc89e42!8m2!3d41.157171!4d-7.584069",
+        "phone": "+351 254535234",
+        "image": "/restaurantes/foz.jpg"
+    },
+    {
+        "id":11,
+        "restaurante": "Restaurante \"Taberna 5120\"",
+        "pratos": "Fumeiro, Prego Serrano, Bacalhau à 5120, Peixes do Rio, Sopa de Peixe",
+        "maps": "https://www.google.com/maps/place/5120+Taberna/@41.1174873,-7.5661769,15z/data=!4m2!3m1!1s0x0:0x1d586fac2e3be52c?sa=X&ved=2ahUKEwjv6J6vmf_oAhX0DGMBHequCPwQ_BIwE3oECBsQCA",
+        "phone": "+351 939119113",
+        "image": "/restaurantes/taberna.jpg"
+    },
+    {
+        "id":12,
+        "restaurante": "Restaurante \"Douro INN\"",
+        "pratos": "Bacalhau à Douro Inn, Vitela Assada, Tapas, Hambúrger",
+        "maps": "https://www.google.com/maps/place/Restaurante+DouroInn/@41.1167822,-7.5690894,15z/data=!4m5!3m4!1s0x0:0xdd3401c79c3d247a!8m2!3d41.1167822!4d-7.5690894",
+        "phone": "+351 254782392",
+        "image": "/restaurantes/douroinn.jpg"
+    },
+    {
+        "id":8,
+        "restaurante": "Restaurante \"O Tonel\"",
+        "pratos": "Carnes assadas na brasa, cabrito assado em forno de lenha e toda uma variedade de pratos característicos do concelho",
+        "maps": "https://www.google.com/maps/place/Restaurante+O+Tonel/@41.1430649,-7.6077858,15z/data=!4m5!3m4!1s0x0:0x60bc5c9b81ff563f!8m2!3d41.1430649!4d-7.6077858",
+        "phone": "+351 254782405",
+        "image": "/restaurantes/tonel.jpg"
+    },
+    {
+        "id":9,
+        "restaurante": "Pizzaria \"A Forge\"",
+        "pratos": "Pizzas, lasanhas, francesinha",
+        "maps": "https://www.google.com/maps/place/Pizzaria+a+Forge/@41.0215667,-7.5373068,15z/data=!4m5!3m4!1s0x0:0x5cf70d4ab0f24ea7!8m2!3d41.0215667!4d-7.5373068",
+        "phone": "+351 254535057",
+        "image": "/restaurantes/aforge.jpg"
+    },
+    {
+        "id":6,
+        "restaurante": "A Tarraxa",
+        "pratos": "Entradas Regionais (chouriço, salpicão, queijo, presunto, pão caseiro), carnes variadas assadas na brasa, Picanha assada com arroz de feijão, canja de vitela",
+        "maps": "https://www.google.com/maps/place/Taverna+A+Tarraxa/@41.0380111,-7.5408057,15z/data=!4m5!3m4!1s0x0:0x9ce6508f828750d0!8m2!3d41.0380111!4d-7.5408057",
+        "phone": "+351 254536164",
+        "image": "/restaurantes/tarraxa.jpg"
+    },
+    {
+        "id":7,
+        "restaurante": "Café Restaurante \"Europa\"",
+        "pratos": "Entradas Regionais (chouriço, salpicão, queijo, presunto, pão caseiro), carnes variadas assadas na brasa, Picanha assada com arroz de feijão",
+        "maps": "https://www.google.com/maps/place/Cafe+Europa/@41.033071,-7.5467393,15z/data=!4m2!3m1!1s0x0:0x4abe6233c32efd4b?sa=X&ved=2ahUKEwj9ts75_P7oAhWC2uAKHXu7D_kQ_BIwCnoECBMQCA",
+        "phone": "+351 254536232",
+        "image": "/restaurantes/europa.jpg"
+    },
+    {
+        "id":10,
+        "restaurante": "Casa dos Peixinhos",
+        "pratos": "Peixinhos do rio, enguias, javali e coelho-bravo",
+        "maps": "https://www.google.com/maps/place/Casa+dos+Peixinhos/@41.1574726,-7.6065319,15z/data=!4m2!3m1!1s0x0:0xb687d07732546c57?sa=X&ved=2ahUKEwi7y9mTlf_oAhW_AWMBHYEvBOEQ_BIwE3oECBoQCA",
+        "phone": "+351 254789486",
+        "image": "/restaurantes/peixinhos.jpg"
+    },
+    {
+        "id":5,
+        "restaurante": "O Ramal / A Gata",
+        "pratos": "Feijoada, carnes assadas na brasa, peixes grelhados, arroz de pato",
+        "maps": "https://www.google.com/maps/place/Restaurante+Gata/@41.1155866,-7.5596758,15z/data=!4m5!3m4!1s0x0:0x74ee6500ca5b0aca!8m2!3d41.1155866!4d-7.5596758",
+        "phone": "+351 254781120",
+        "image": "/restaurantes/gata.jpg"
+    }
+]

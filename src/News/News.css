@@ -6,6 +6,8 @@
 /* Track */
 ::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 2px rgba(0,0,0,1);    
+    box-shadow: inset 0 0 2px rgba(0,0,0,1);
+
 }
  
 /* Handle */
@@ -14,6 +16,7 @@
     border-radius: 20px;
     background: rgba(0,0,0,0.8); 
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,1); 
+    box-shadow: inset 0 0 6px rgba(0,0,0,1);
 }
 ::-webkit-scrollbar-thumb:window-inactive {
 	background: rgba(0,0,0,0.5); 
@@ -83,7 +86,7 @@
 
 }
 
-#brk-btn {
+#btnLer {
     position: absolute;
     right:    5%;
     bottom:   5%;
@@ -96,7 +99,7 @@
     padding: 0.5em 1em;
 }
 
-#brk-btn::before{
+#btnLer::before{
 
     content: "";
     display: block;
@@ -112,7 +115,7 @@
 
 }
 
-#brk-btn::after{
+#btnLer::after{
     
     content: "";
     display: block;
@@ -128,11 +131,11 @@
 
 }
     
-#brk-btn:hover::before{
+#btnLer:hover::before{
     right: 80%;   
 }
 
-#brk-btn:hover::after{
+#btnLer:hover::after{
     left: 80%;   
 }
 

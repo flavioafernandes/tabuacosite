@@ -1,0 +1,171 @@
+[
+    {
+        "id":1,
+        "quinta": "Quinta do Pégo",
+        "site": "https://quintadopego.com/",
+        "maps": "https://www.google.com/maps/place/Q.ta+do+Pego,+Tabua%C3%A7o/data=!4m2!3m1!1s0xd3b5afd2f32d309:0x231b0b13c48e2c79?sa=X&ved=2ahUKEwitx_SH0_foAhVWD2MBHT0oDqsQ8gEwAXoECAsQAQ",
+        "phone": "+351 254730070",
+        "image": "/quintas/pego.jpg"
+    },
+    {
+        "id":2,
+        "quinta": "Quinta do Monte Travesso",
+        "site": "https://www.quintadomontetravesso.com/",
+        "maps": "https://www.google.com/maps/place/Quinta+do+Monte+Travesso/@41.1315717,-7.579882,15z/data=!4m2!3m1!1s0x0:0xe73f488425d44087?sa=X&ved=2ahUKEwjg0-P80vfoAhUPoRQKHe-lCawQ_BIwC3oECBcQCA",
+        "phone": "+351 919190174",
+        "image": "/quintas/montetravesso.jpg"
+    },
+    {
+        "id":3,
+        "quinta": "Quinta da Padrela",
+        "site": "http://www.quintadapadrela.com/",
+        "maps": "https://www.google.com/maps/place/Quinta+da+Padrela/@41.1281256,-7.5826401,15z/data=!4m8!3m7!1s0x0:0x58c6b1fd8447e92a!5m2!4m1!1i2!8m2!3d41.1281256!4d-7.5826401",
+        "phone": "+351 254789130",
+        "image": "/quintas/padrela.jpg"
+    },
+    {
+        "id":4,
+        "quinta": "Sociedade Vitícola Foz do Távora",
+        "site": "http://www.foztavora.pt/",
+        "maps": "https://www.google.com/maps/place/Sociedade+Viticola+Foz+do+T%C3%A1vora,+Lda./@41.1167434,-7.5781462,15z/data=!4m2!3m1!1s0x0:0x8b47532421d5649d?sa=X&ved=2ahUKEwi7sMTX1ffoAhUhzYUKHaSLDdQQ_BIwCnoECBEQCA",
+        "phone": "+351 254780050",
+        "image": "/quintas/filoco.jpg"
+    },
+    {
+        "id":5,
+        "quinta": "Quinta do Seixo",
+        "site": "https://winetourism.sogrape.com/pt/visite/quinta-do-seixo-sandeman",
+        "maps": "https://www.google.com/maps/place/Q.ta+do+Seixo,+Tabua%C3%A7o/@41.1681274,-7.572786,14z/data=!3m1!4b1!4m5!3m4!1s0xd3b5b10ce6ab347:0x1eca2792b49dc091!8m2!3d41.1681293!4d-7.5552764",
+        "phone": "+351 254732800",
+        "image": "/quintas/seixo.jpg"
+    },
+    {
+        "id":6,
+        "quinta": "Quinta do Panascal",
+        "site": "http://www.fonseca.pt/pt/visite-nos/",
+        "maps": "https://www.google.com/maps/place/Quinta+do+Panascal/@41.14685,-7.572954,15z/data=!4m2!3m1!1s0x0:0x375a82329e1a262f?sa=X&ved=2ahUKEwjb2ama2PfoAhVHxYUKHRw4BdEQ_BIwE3oECBoQCA",
+        "phone": "+351 254732321",
+        "image": "/quintas/panascal.jpg"
+    },
+    {
+        "id":7,
+        "quinta": "Quinta do Pôpa",
+        "site": "http://www.quintadopopa.com/pt/",
+        "maps": "https://www.google.com/maps/place/Quinta+do+P%C3%B4pa/@41.1536111,-7.6011111,15z/data=!4m5!3m4!1s0x0:0xb2401229f0a3627a!8m2!3d41.1536111!4d-7.6011111",
+        "phone": "+351 916653442",
+        "image": "/quintas/popa.jpg"
+    },
+    {
+        "id":8,
+        "quinta": "Quinta da Aveleira",
+        "site": "http://www.quintadaaveleira.com/",
+        "maps": "https://www.google.com/maps/place/Quinta+da+Aveleira/@41.090888,-7.524019,15z/data=!4m5!3m4!1s0x0:0xb69c9714c9ce0d60!8m2!3d41.090888!4d-7.524019",
+        "phone": "+351 963682154",
+        "image": "/quintas/aveleira.jpg"
+    },
+    {
+        "id":9,
+        "quinta": "Quinta do Bom Retiro",
+        "site": "",
+        "maps": "https://www.google.com/search?q=Quinta+do+Bom+Retiro+tabua%C3%A7o&oq=Quinta+do+Bom+Retiro+tabua%C3%A7o&aqs=chrome..69i57j33.3430j0j1&sourceid=chrome&ie=UTF-8#",
+        "phone": "rpbom@ramospinto.website.pt",
+        "image": "/quintas/bomretiro.jpg"
+    },
+    {
+        "id":10,
+        "quinta": "Quinta do Espinho",
+        "site": "https://www.quintadoespinho.com",
+        "maps": "https://www.google.com/maps/place/Quinta+do+Espinho+%7C+Cardanhos,+Soc.+Agr%C3%ADcola+e+Vitivin%C3%ADcola,+Lda./@41.157133,-7.583271,15z/data=!4m5!3m4!1s0x0:0x9c9e177fba9a9a49!8m2!3d41.157133!4d-7.583271",
+        "phone": "+351 254787079",
+        "image": "/quintas/espinho.jpg"
+    },
+    {
+        "id":11,
+        "quinta": "Quinta da Carregosa",
+        "site": "http://www.quintadacarregosa.pt/",
+        "maps": "https://www.google.com/maps/place/Quinta+da+carregosa/@41.1414674,-7.5445541,15z/data=!4m5!3m4!1s0x0:0x8c7ee6a3afeae912!8m2!3d41.1414674!4d-7.5445541",
+        "phone": "+351 254731869",
+        "image": "/quintas/carregosa.png"
+    },
+    {
+        "id":12,
+        "quinta": "Quinta de Santo António",
+        "site": "https://www.quintasantoantonio.pt/",
+        "maps": "https://www.google.com/maps/place/Q.ta+de+Santo+Ant%C3%B3nio,+Tabua%C3%A7o/@41.1508335,-7.6133062,14z/data=!3m1!4b1!4m5!3m4!1s0xd3b5a6207f81695:0x2589b34234eba9d4!8m2!3d41.1508354!4d-7.5957966",
+        "phone": "+351 254789177",
+        "image": "/quintas/santoantonio.jpg"
+    },
+    {
+        "id":13,
+        "quinta": "Quinta da Deserta",
+        "site": "",
+        "maps": "https://www.google.com/maps/place/Quinta+da+Deserta/@41.1317502,-7.5605434,15z/data=!4m5!3m4!1s0x0:0x52a147b41ad03196!8m2!3d41.1317502!4d-7.5605434",
+        "phone": "+351 926990496",
+        "image": "/quintas/deserta.jpg"
+    },
+    {
+        "id":14,
+        "quinta": "RUMO",
+        "site": "",
+        "maps": "https://www.google.com/maps/place/RUMO+in+vino+veritas+-+Garrafeira+%26+Turismo/@41.1175171,-7.56747,15z/data=!4m5!3m4!1s0x0:0xe619f90474484f73!8m2!3d41.1175171!4d-7.56747",
+        "phone": "+351 967076770",
+        "image": "/quintas/rumo.jpg"
+    },
+    {
+        "id":15,
+        "quinta": "Quinta das Herédias",
+        "site": "https://www.winemagnum.com/pt/douro-e-porto/heredias/",
+        "maps": "https://www.google.com/maps/place/Quinta+das+Heredias+(Magnum+Carlos+Lucas+Vinhos)/@41.083217,-7.516762,15z/data=!4m2!3m1!1s0x0:0x37cd8b4f83b182df?sa=X&ved=2ahUKEwilu9Sjl_zoAhUDx4UKHbN7AnEQ_BIwCnoECBEQCA",
+        "phone": " ",
+        "image": "/quintas/heredias.jpg"
+    },
+    {
+        "id":16,
+        "quinta": "Quinta do Convento de São Pedro das Águias",
+        "site": "https://www.kranemannestates.com/",
+        "maps": "https://www.google.com/maps/place/Quinta+do+Convento+-+Kranemann+Estates/@41.0871521,-7.5202701,18z/data=!4m13!1m7!3m6!1s0x0:0x0!2zNDHCsDA1JzA5LjYiTiA3wrAzMScwNC4xIlc!3b1!8m2!3d41.0859917!4d-7.5177944!3m4!1s0xd3b5f6799eae64b:0x901caf374f9b56a6!8m2!3d41.0876271!4d-7.520212",
+        "phone": "+351 254782070",
+        "image": "/quintas/convento.jpg"
+    },
+    {
+        "id":17,
+        "quinta": "Quinta da Covada",
+        "site": "",
+        "maps": "https://www.google.com/maps/place/Quinta+da+Covada/@41.1257374,-7.5785511,15z/data=!4m2!3m1!1s0x0:0x1c85b2fb6a4da3d3?sa=X&ved=2ahUKEwiP-q6vl_zoAhVGzIUKHe03DXYQ_BIwCnoECBgQCA",
+        "phone": "+351 967590821",
+        "image": "/quintas/covada.jpg"
+    },
+    {
+        "id":20,
+        "quinta": "Quinta da Côrte",
+        "site": "http://quintadacorte.com/pt-pt/",
+        "maps": "https://www.google.com/maps/place/Q.ta+da+Corte,+Tabua%C3%A7o/@41.16296,-7.5651498,14z/data=!3m1!4b1!4m5!3m4!1s0xd3b5b0d41b9e307:0x2369a4360626dbee!8m2!3d41.1629619!4d-7.5476402",
+        "phone": "+351 254732328",
+        "image": "/quintas/corte.jpg"
+    },
+    {
+        "id":19,
+        "quinta": "Odisseia Wines",
+        "site": "https://odisseiawines.com/",
+        "maps": "",
+        "phone": "odisseiawines@sapo.pt",
+        "image": "/quintas/odisseia.jpg"
+    },
+    {
+        "id":18,
+        "quinta": "Quinta da Môa",
+        "site": "",
+        "maps": "",
+        "phone": "vinhomoa@gmail.com",
+        "image": ""
+    },
+    {
+        "id":19,
+        "quinta": "Caulinus Vinhos",
+        "site": "",
+        "maps": "",
+        "phone": "+351 934422286",
+        "image": ""
+    }
+
+]
