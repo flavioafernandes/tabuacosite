@@ -28,7 +28,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "node --max_old_space_size=8192 node_modules/.bin/react-scripts start --progress --env.prod",
+    "build": "react-scripts build",
     "deploy":"aws s3 sync build/ s3://tabuacosite",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
