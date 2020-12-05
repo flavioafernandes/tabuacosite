@@ -1,5 +1,4 @@
 {
-  "homepage": "http://flavioafernandes.github.io/tabuacosite",
   "name": "tabuaco",
   "version": "0.1.0",
   "private": true,
@@ -28,10 +27,9 @@
     "styled-components": "^5.1.0"
   },
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy":"aws s3 sync build/ s3://tabuacosite",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
