@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./Turismo.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import 'leaflet/dist/leaflet.css';
 import { Navbar, Nav, Container } from "react-bootstrap";
 import history from "./../history";
 import Button from "react-bootstrap/Button";
@@ -290,11 +291,11 @@ class Turismo extends Component {
             </div>
 
                 <div className="map">
-              <Map center={mapConfig.center} zoom={mapConfig.zoom} className="map__reactleaflet">
-                <TileLayer
-                  url="https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png"
-                  attribution='&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, &copy; <a href="https://carto.com/attribution">CARTO</a>'
-                />
+                  <Map center={mapConfig.center} zoom={mapConfig.zoom} className="map__reactleaflet">
+                    <TileLayer
+                      url="https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png"
+                      attribution='&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, &copy; <a href="https://carto.com/attribution">CARTO</a>'
+                    />
 
                 {/*
                 DEFAULT
