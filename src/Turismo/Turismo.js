@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./Turismo.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import 'leaflet/dist/leaflet.css';
 import { Navbar, Nav, Container } from "react-bootstrap";
 import history from "./../history";
 import Button from "react-bootstrap/Button";
@@ -18,6 +17,7 @@ import Popover from "react-bootstrap/Popover";
 import Leaflet from 'leaflet';
 import { Map, Marker, Popup, TileLayer, GeoJSON } from 'react-leaflet';
 import { markers, mapConfig } from './utils';
+import 'leaflet/dist/leaflet.css';
 
 Leaflet.Icon.Default.imagePath = '//cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.0/images/';
 
