@@ -1,0 +1,14 @@
+#devPageText{
+    display: block;
+    margin: auto;
+    height: 100%;
+    text-align: center;
+    padding-top: 50vh;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+
+#secondaryText{
+    font-size: larger
+}

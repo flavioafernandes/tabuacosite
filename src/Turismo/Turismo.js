@@ -103,7 +103,7 @@ class Turismo extends Component {
               >
                 turismo
               </Nav.Link>
-              <Nav.Link id="links" style={{ color: "white", fontSize: "20px" }}>
+              <Nav.Link id="links" style={{ color: "white", fontSize: "20px" }} onClick={getAssosiacao}>
                 associações
               </Nav.Link>
               <Nav.Link
@@ -113,7 +113,7 @@ class Turismo extends Component {
               >
                 concelho
               </Nav.Link>
-              <Nav.Link id="links" style={{ color: "white", fontSize: "20px" }}>
+              <Nav.Link id="links" style={{ color: "white", fontSize: "20px" }} onClick={getContatos}>
                 links e contatos
               </Nav.Link>
               <Nav.Link
@@ -717,6 +717,14 @@ function getNews(e) {
 
 function getConcelho(e) {
   history.push("/About");
+}
+
+function getContatos(e){
+  history.push("/Contatos")
+}
+
+function getAssosiacao(e){
+  history.push("/Associacoes")
 }
 
 /*

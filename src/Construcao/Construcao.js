@@ -1,14 +1,19 @@
 import React, { Component } from "react";
-import "./Main.css";
-import sample from "./videohd.mp4";
-import history from "./../history";
-import "bootstrap/dist/css/bootstrap.min.css";
 import { Navbar, Nav } from "react-bootstrap";
+import "./Construcao.css";
+import Card from "react-bootstrap/Card";
+import "bootstrap/dist/css/bootstrap.min.css";
+import history from "./../history";
 
-export default class Main extends Component {
+class Construcao extends Component {
   render() {
+    const title = localStorage.getItem("title");
+    const text = localStorage.getItem("text");
+    const link = localStorage.getItem("link");
+    const date = localStorage.getItem("date");
+    console.log(text);
     return (
-      <div className="App">
+      <div>
         <link
           rel="stylesheet"
           href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -103,49 +108,15 @@ export default class Main extends Component {
           </Navbar.Collapse>
         </Navbar>
 
-        <video id="myVideo" loop autoPlay muted>
-          <source src={sample} type="video/mp4" />
-        </video>
+        <p id="devPageText">Página em Desenvolvimento</p>
+        <p id="secondaryText">Será disponibilizada o mais brevemente possível</p>
 
-        <div className="content">
-          <div id="textContainer">
-            <h1 id="tbcName">Tabuaço</h1>
-            <p id="tbcSlogan">O melhor do Douro está aqui!</p>
-          </div>
-        </div>
-
-        <Navbar
-          style={{ backgroundColor: "#111111", height: "15px" }}
-          fixed="bottom"
-        >
-          <Navbar.Collapse className="justify-content-end">
-            <Navbar.Text
-              style={{ color: "#ffffff", fontSize: "10px", padding: 0 }}
-            >
-              Developed by:{" "}
-              <a
-                onClick={() =>
-                  window.open(
-                    "https://www.linkedin.com/in/oflaviofernandes/",
-                    "_blank"
-                  )
-                }
-                style={{
-                  color: "#e9e9e9",
-                  padding: 0,
-                  cursor: "pointer",
-                  textDecoration: "underline",
-                }}
-              >
-                Flávio Fernandes
-              </a>
-            </Navbar.Text>
-          </Navbar.Collapse>
-        </Navbar>
       </div>
     );
   }
 }
+
+export default Construcao;
 
 function getConcelho(e) {
   history.push("/About");
@@ -159,17 +130,11 @@ function getTurismo(e) {
   history.push("/Turismo");
 }
 
+
 function getContatos(e){
-  history.push("/Contatos")
+    history.push("/Contatos")
 }
 
 function getAssosiacao(e){
-  history.push("/Associacoes")
+    history.push("/Associacoes")
 }
-/*function getMore(e){
-  history.push('/About');
-}
-
-<img id="btnIn" src={require('./more.png')} onClick={getMore} />   
-
-*/

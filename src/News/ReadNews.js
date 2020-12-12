@@ -57,6 +57,7 @@ class ReadNews extends Component {
                 <Nav.Link
                   id="links"
                   style={{ color: "white", fontSize: "20px" }}
+                  onClick={getAssosiacao}
                 >
                   associações
                 </Nav.Link>
@@ -70,6 +71,7 @@ class ReadNews extends Component {
                 <Nav.Link
                   id="links"
                   style={{ color: "white", fontSize: "20px" }}
+                  onClick={getContatos}
                 >
                   links e contatos
                 </Nav.Link>
@@ -196,4 +198,12 @@ function getNews(e) {
 
 function getTurismo(e) {
   history.push("/Turismo");
+}
+
+function getContatos(e){
+  history.push("/Contatos")
+}
+
+function getAssosiacao(e){
+  history.push("/Associacoes")
 }

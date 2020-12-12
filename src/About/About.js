@@ -43,7 +43,7 @@ class About extends Component {
               >
                 turismo
               </Nav.Link>
-              <Nav.Link id="links" style={{ color: "white", fontSize: "20px" }}>
+              <Nav.Link id="links" style={{ color: "white", fontSize: "20px" }} onClick={getAssosiacao}>
                 associações
               </Nav.Link>
               <Nav.Link
@@ -53,7 +53,7 @@ class About extends Component {
               >
                 concelho
               </Nav.Link>
-              <Nav.Link id="links" style={{ color: "white", fontSize: "20px" }}>
+              <Nav.Link id="links" style={{ color: "white", fontSize: "20px" }} onClick={getContatos}>
                 links e contatos
               </Nav.Link>
               <Nav.Link
@@ -136,14 +136,10 @@ class About extends Component {
             justifyContent: "space-around",
           }}
         >
-          <Card id="myCard" style={{ width: "18rem" }}>
+          <Card id="myCard" style={{ width: "30rem" }}>
             <Card.Img variant="top" src="/adorigo.png" />
             <Card.Body>
               <Card.Title>Adorigo</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </Card.Text>
 
               <img
                 id="localImg"
@@ -174,17 +170,26 @@ class About extends Component {
                   )
                 }
               />
+
+              <Card.Text>
+                Adorigo é uma das freguesias abrigadas e temperadas dos Vales do
+                Douro com quintas que há séculos produzem o singular Vinho do
+                Porto. Com paisagens inigualáveis, esta freguesia é um ponto de
+                observação privilegiado sobre o Rio Douro. Além de Adorigo, esta
+                freguesia conta ainda com um outro miradouro, S. Martinho, onde
+                se pode visitar a capela do santo homónimo. Com uma conhecida
+                ligação ao vinho generoso e ao Douro Vinhateiro, esta terra é
+                também rica em quintas de produção. Assim, salientamos as
+                quintas de S. Luiz, do Vidiedo, de Santo António, do Espinho e
+                de Santa Eufémia.
+              </Card.Text>
             </Card.Body>
           </Card>
 
-          <Card id="myCard" style={{ width: "18rem" }}>
+          <Card id="myCard" style={{ width: "30rem" }}>
             <Card.Img variant="top" src="/arcos.jpg" />
             <Card.Body>
               <Card.Title>Arcos</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </Card.Text>
 
               <img
                 id="localImg"
@@ -215,17 +220,24 @@ class About extends Component {
                   )
                 }
               />
+
+              <Card.Text>
+                A freguesia foi sede de concelho até 1834, passando a ser, a
+                partir daquela data, e até 1862, parte do município de Moimenta
+                da Beira. Em 1872, mais precisamente a 10 Fevereiro, Arcos
+                passou a integrar o concelho de Tabuaço. Como sinais da antiga
+                autonomia municipal de Arcos, persistem ainda o quinhentista
+                Pelourinho de Arcos, classificado como Imóvel de Interesse
+                Público, bem como os antigos edifícios do Tribunal e da Cadeia,
+                embora algo descaracterizados. 
+              </Card.Text>
             </Card.Body>
           </Card>
 
-          <Card id="myCard" style={{ width: "18rem" }}>
+          <Card id="myCard" style={{ width: "30rem" }}>
             <Card.Img variant="top" src="/balsa.jpg" />
             <Card.Body>
               <Card.Title>Balsa</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </Card.Text>
 
               <img
                 id="localImg"
@@ -241,17 +253,14 @@ class About extends Component {
                   )
                 }
               />
+              <Card.Text>Pertence à freguesia da Desejosa</Card.Text>
             </Card.Body>
           </Card>
 
-          <Card id="myCard" style={{ width: "18rem" }}>
+          <Card id="myCard" style={{ width: "30rem" }}>
             <Card.Img variant="top" src="/barcos.png" />
             <Card.Body>
               <Card.Title>Barcos</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </Card.Text>
 
               <img
                 id="localImg"
@@ -282,17 +291,26 @@ class About extends Component {
                   )
                 }
               />
+              <Card.Text>
+                Foi sede de concelho, entre 1263 e 1855, integrando as
+                freguesias de Adorigo, Barcos, Santa Leocádia e Santo Adrião.
+                Com a chegada das reformas administrativas do liberalismo,
+                acabaram por ser integrar também no município as freguesias de
+                Folgosa, Vila Seca, pinheiros e vale de Figueira. Não se fala da
+                Freguesia de Barcos sem falar do Santuário de Santa Maria do
+                Sabroso e da Igreja Matriz. Importantes marcos no património
+                arquitectónico e religioso do concelho. Mas outros exemplos
+                arquitectónicos podem ser visitados nesta freguesia: a Casa da
+                Roda e palacetes de famílias influentes da freguesia são dignos
+                de apreciação.
+              </Card.Text>
             </Card.Body>
           </Card>
 
-          <Card id="myCard" style={{ width: "18rem" }}>
+          <Card id="myCard" style={{ width: "30rem" }}>
             <Card.Img variant="top" src="/cabriz.jpg" />
             <Card.Body>
               <Card.Title>Cabriz</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </Card.Text>
 
               <img
                 id="localImg"
@@ -308,17 +326,20 @@ class About extends Component {
                   )
                 }
               />
+              <Card.Text>
+                Cabriz é uma aldeia pertencente à freguesia de Sendim, concelho
+                de Tabuaço, no distrito de Viseu. A maioria da população é
+                idosa, dedicando-se maioritariamente à agricultura. A festa que
+                se realiza na aldeia de Cabriz é a 22 de julho em honra da Santa
+                Maria Madalena.
+              </Card.Text>
             </Card.Body>
           </Card>
 
-          <Card id="myCard" style={{ width: "18rem" }}>
+          <Card id="myCard" style={{ width: "30rem" }}>
             <Card.Img variant="top" src="/carrazedo.png" />
             <Card.Body>
               <Card.Title>Carrazedo</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </Card.Text>
 
               <img
                 id="localImg"
@@ -349,17 +370,17 @@ class About extends Component {
                   )
                 }
               />
+              <Card.Text>
+                Lugar pertencente à União de freguesisas de Pinheriros e Vale de
+                Figueira
+              </Card.Text>
             </Card.Body>
           </Card>
 
-          <Card id="myCard" style={{ width: "18rem" }}>
+          <Card id="myCard" style={{ width: "30rem" }}>
             <Card.Img variant="top" src="/chavaes.jpg" />
             <Card.Body>
               <Card.Title>Chavães</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </Card.Text>
 
               <img
                 id="localImg"
@@ -390,17 +411,26 @@ class About extends Component {
                   )
                 }
               />
+              <Card.Text>
+                É, ainda nos dias de hoje, e como a grande maioria das
+                freguesias do concelho, uma freguesia rural, dedicada
+                essencialmente ao cultivo da batata e do cereal e à produção da
+                castanha. A emigração também caracteriza esta população. Para
+                além do pelourinho, datado do séc. XVII, pouco mais resta dos
+                vestígios da antiguidade. Teve cadeia, transformada em casa de
+                habitação, e, segundo os mais antigos, terá existido aqui um
+                hospital, mas nada há a comprova-lo. A freguesia de Chavães
+                recebeu, em 1265, foral, assinado pelos Azevedos, senhores da
+                Baião, e confirmado por D. Afonso III. O cancioneiro é mantido
+                até hoje através do Rancho Folclórico de Chavães.
+              </Card.Text>
             </Card.Body>
           </Card>
 
-          <Card id="myCard" style={{ width: "18rem" }}>
+          <Card id="myCard" style={{ width: "30rem" }}>
             <Card.Img variant="top" src="/desejosa.jpg" />
             <Card.Body>
               <Card.Title>Desejosa</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </Card.Text>
 
               <img
                 id="localImg"
@@ -431,17 +461,24 @@ class About extends Component {
                   )
                 }
               />
+              <Card.Text>
+                A freguesia de Desejosa é composta por duas povoações Desejosa e
+                balsa do Douro. Recebeu foral em 1514. As gentes desta terra
+                falam essencialmente de trabalho, das vindimas e das encostas
+                onde se produz um excelente vinho. O património remete-nos,
+                essencialmente, para a capela de Santa Bárbara e para a igreja
+                matriz, construída no séc. XIV, caracteristicamente de
+                arquitectura religiosa, maneirista e barroca. Além deste
+                património, a freguesia da Desejosa é rica pela sua paisagem
+                tipicamente duriense
+              </Card.Text>
             </Card.Body>
           </Card>
 
-          <Card id="myCard" style={{ width: "18rem" }}>
+          <Card id="myCard" style={{ width: "30rem" }}>
             <Card.Img variant="top" src="/granjadotedo.jpg" />
             <Card.Body>
               <Card.Title>Granja do Tedo</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </Card.Text>
 
               <img
                 id="localImg"
@@ -472,17 +509,26 @@ class About extends Component {
                   )
                 }
               />
+              <Card.Text>
+                A fundação da povoação de Granja do Tedo encontra-se envolta em
+                lendas que se cruzam com factos históricos, sendo difícil
+                distinguir a realidade. É uma freguesia rica em História e
+                património cultural. Os vestígios arqueológicos remetem-nos para
+                o período romano. É o caso da estrada romana que liga esta
+                freguesia a Longa e a Leomil e das pontes que atravessam o Rio
+                Tedo e o Tedinho. Facto curioso, que ainda hoje a população
+                evita lembrar, é o fenómeno da Arca da Aliança, uma seita
+                religiosa que Maria Coroada estabeleceu no local na segunda
+                metade do séc. XIX e que deu origem ao chamado Cisma da Granja
+                do Tedo.
+              </Card.Text>
             </Card.Body>
           </Card>
 
-          <Card id="myCard" style={{ width: "18rem" }}>
+          <Card id="myCard" style={{ width: "30rem" }}>
             <Card.Img variant="top" src="/granjinha.jpg" />
             <Card.Body>
               <Card.Title>Granjinha</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </Card.Text>
 
               <img
                 id="localImg"
@@ -513,17 +559,25 @@ class About extends Component {
                   )
                 }
               />
+              <Card.Text>
+                É uma terra pequena mas cheia de História. Falar na Granjinha
+                remete-nos, quase automaticamente, para a Igreja de S. Pedro das
+                Águias, construída, segundo a tradição oral, no séc. X pelos
+                irmãos D. Tedon e D. Rausendo. No séc. XII aparece referenciada
+                como pertença da Ordem de Cister. A principal característica
+                deste edifício, é ter a fachada principal a cerca de 1m distante
+                de uma majestosa escarpa rochosa e uma ornamentação figurativa e
+                simbólica com uma elaborada combinação de motivos geométricos,
+                fitomórficos, zoomórficos e antropomórficos, a que se junta um
+                Agnus Dei e uma Croix Nouée.
+              </Card.Text>
             </Card.Body>
           </Card>
 
-          <Card id="myCard" style={{ width: "18rem" }}>
+          <Card id="myCard" style={{ width: "30rem" }}>
             <Card.Img variant="top" src="/guedieiros.jpg" />
             <Card.Body>
               <Card.Title>Guedieiros</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </Card.Text>
 
               <img
                 id="localImg"
@@ -554,17 +608,14 @@ class About extends Component {
                   )
                 }
               />
+              <Card.Text>Pertence à freguesia de Sendim</Card.Text>
             </Card.Body>
           </Card>
 
-          <Card id="myCard" style={{ width: "18rem" }}>
+          <Card id="myCard" style={{ width: "30rem" }}>
             <Card.Img variant="top" src="/longa.jpg" />
             <Card.Body>
               <Card.Title>Longa</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </Card.Text>
 
               <img
                 id="localImg"
@@ -607,17 +658,25 @@ class About extends Component {
                   window.open("http://www.longa5120.com/longa16.htm", "_blank")
                 }
               />
+              <Card.Text>
+                Foi sede de concelho até 1836, quando foi integrada no município
+                de São Cosmado. Era constituído apenas por uma freguesia e
+                tinha, em 1801, 493 habitantes. Em 24 de Outubro de 1855, com a
+                extinção do concelho de São Cosmado, a freguesia passou para o
+                concelho de Tabuaço. A freguesia é rica em belos solares e
+                nobres casas caracteristicamente quinhentistas, seiscentistas e
+                oitocentistas. Abastada também em arquitectura religiosa, não
+                podemos deixar de referir, também na freguesia, a Citânia de
+                Longa, um marco histórico-cultural datado da Idade do Bronze
+                (1200 - 700 a.C.).
+              </Card.Text>
             </Card.Body>
           </Card>
 
-          <Card id="myCard" style={{ width: "18rem" }}>
+          <Card id="myCard" style={{ width: "30rem" }}>
             <Card.Img variant="top" src="/paradela.jpg" />
             <Card.Body>
               <Card.Title>Paradela</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </Card.Text>
 
               <img
                 id="localImg"
@@ -648,17 +707,28 @@ class About extends Component {
                   )
                 }
               />
+              <Card.Text>
+                Foi sede de concelho até ao século XIX, sendo conhecido pelo
+                nome alternativo de São Pedro de Águias, por ali se encontrar um
+                mosteiro com essa invocação. Era constituído por duas
+                freguesias: Paradela e São Pedro de Águias. O concelho de
+                Paradela foi extinto em 6 de Novembro de 1836, transitando a
+                freguesia para o concelho de Tabuaço. Paradela guarda um
+                conjunto patrimonial interessante. Na área da arqueologia, é
+                possível referir as Gravuras rupestres da Eira do Monte 1, o
+                Povoado da Idade do Ferro de S. Mamede, a famosa Pedra do
+                Cavalo, o Casal romano da Eira do Monte 2, um Lagar
+                romano/medieval, sito na Eira do Monte, as Gravuras de Eira do
+                Monte 3 e os Marcos delimitadores do padroado que a Universidade
+                de Coimbra detinha sobre a paróquia.
+              </Card.Text>
             </Card.Body>
           </Card>
 
-          <Card id="myCard" style={{ width: "18rem" }}>
+          <Card id="myCard" style={{ width: "30rem" }}>
             <Card.Img variant="top" src="/pereiro.jpg" />
             <Card.Body>
               <Card.Title>Pereiro</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </Card.Text>
 
               <img
                 id="localImg"
@@ -689,17 +759,21 @@ class About extends Component {
                   )
                 }
               />
+              <Card.Text>
+                A freguesia de Pereiro, como a grande maioria do concelho de
+                Tabuaço, é rica em património histórico, cultural, paisagístico
+                e arquitectónico. Falar com as suas gentes é entrar num universo
+                de conhecimento, muito deste confunde a realidade com a fantasia
+                e o imaginário. A igreja Matriz, de invocação a S. Sebastião, é
+                tipicamente maneirista e foi construída no séc. XVII.
+              </Card.Text>
             </Card.Body>
           </Card>
 
-          <Card id="myCard" style={{ width: "18rem" }}>
+          <Card id="myCard" style={{ width: "30rem" }}>
             <Card.Img variant="top" src="/pinheiros.jpg" />
             <Card.Body>
               <Card.Title>Pinheiros</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </Card.Text>
 
               <img
                 id="localImg"
@@ -730,17 +804,24 @@ class About extends Component {
                   )
                 }
               />
+              <Card.Text>
+                Foi vila e sede de concelho até ao século XIX. Como concelho,
+                era constituído apenas pela freguesia da sede. Aquando da
+                supressão foi anexo ao também já extinto concelho de Barcos. De
+                entre um vasto número de interesses culturais saliente-se, da
+                época pré-histórica, as pinturas rupestres do Cabeço das Pombas,
+                actualmente transformado num bonito jardim. Pinheiros tem no seu
+                cenário cultural uma das mais antigas romarias que todos os
+                anos, em Setembro, tráz a esta aldeia muitos romeiros e
+                festeiros – a Romaria a S. Eufémia.
+              </Card.Text>
             </Card.Body>
           </Card>
 
-          <Card id="myCard" style={{ width: "18rem", marginRight: "3vw" }}>
+          <Card id="myCard" style={{ width: "30rem", marginRight: "3vw" }}>
             <Card.Img variant="top" src="/santaleocadia.jpg" />
             <Card.Body>
               <Card.Title>Santa Leocádia</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </Card.Text>
 
               <img
                 id="localImg"
@@ -771,10 +852,19 @@ class About extends Component {
                   )
                 }
               />
+              <Card.Text>
+                Trata-se de uma freguesia onde é significativa a cultura do
+                azeite e onde, desde épocas recuadas, a população se dedica à
+                agricultura e à produção vinícola. A igreja matriz de Santa
+                Leocádia, construída no séc. XVII, é um dos monumentos do
+                concelho de Tabuaço mais dignos de visita. De estilo tipicamente
+                barroco nacional, pode apreciar-se no seu interior os caixotões
+                pintados que representam a vida dos santos.
+              </Card.Text>
             </Card.Body>
           </Card>
 
-          <Card id="myCard" style={{ width: "18rem" }}>
+          <Card id="myCard" style={{ width: "30rem" }}>
             <Card.Img variant="top" src="/santoaleixo.jpg" />
             <Card.Body>
               <Card.Title>Santo Aleixo</Card.Title>
@@ -800,14 +890,10 @@ class About extends Component {
             </Card.Body>
           </Card>
 
-          <Card id="myCard" style={{ width: "18rem" }}>
+          <Card id="myCard" style={{ width: "30rem" }}>
             <Card.Img variant="top" src="/sendim.jpg" />
             <Card.Body>
               <Card.Title>Sendim</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </Card.Text>
 
               <img
                 id="localImg"
@@ -838,17 +924,24 @@ class About extends Component {
                   )
                 }
               />
+              <Card.Text>
+                Foi vila e sede de concelho entre 1250 e 1836. Era constituído
+                apenas pela freguesia da sede e tinha, no início do séc. XIX,
+                1156 habitantes. Voltou a adquirir a categoria de Vila a 12 de
+                Julho de 2001. Do tempo das invasões romanas, ficou-nos nesta
+                Vila a Via Romana de Vale de Vila, vários lagares escavados na
+                rocha, que provam a ancestralidade da produção de azeite na
+                região, e um pequeno santuário rupestre, o Altar de S. João. A
+                igreja matriz data do sec. XVII e é de arquitectura tipicamente
+                maneirista e barroca.
+              </Card.Text>
             </Card.Body>
           </Card>
 
-          <Card id="myCard" style={{ width: "18rem" }}>
+          <Card id="myCard" style={{ width: "30rem" }}>
             <Card.Img variant="top" src="/tabuaco.jpg" />
             <Card.Body>
               <Card.Title>Tabuaço</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </Card.Text>
 
               <img
                 id="localImg"
@@ -888,17 +981,32 @@ class About extends Component {
                   window.open("https://www.cm-tabuaco.pt/", "_blank")
                 }
               />
+              <Card.Text>
+                É sede do município, dividido em 17 freguesias. Pertence ao
+                distrito de Viseu e está incluído na região Norte e sub-região
+                do Douro. Como concelho está limitado a norte pelo município de
+                Sabrosa, a leste por S. João da Pesqueira, a sueste por
+                Sernancelhe, a sudoeste por Moimenta da Beira e a oeste por
+                Armamar. É um concelho extremamente interessante a vários
+                níveis: tem paisagens únicas, caracteristicamente durienses, tem
+                um considerável património arquitectónico e as suas tradições
+                estão, até aos nossos dias, muito vincadas na vivência dos seus
+                habitantes. As lendas confundem os nossos sentidos e
+                transportam-nos para a magia dos seus intervenientes – mouras
+                encantadas, tesouros escondidos e todo um conjunto de histórias
+                e mitos vivem até aos dias de hoje nas nossas populações.
+                Tabuaço é terra de vinho, de azeite, de uma gastronomia
+                inconfundível, apresentando alguns pratos singulares, como o
+                javali. A hospitalidade do seu povo é notória e em cada casa, em
+                cada mesa, um visitante é um amigo.
+              </Card.Text>
             </Card.Body>
           </Card>
 
-          <Card id="myCard" style={{ width: "18rem" }}>
+          <Card id="myCard" style={{ width: "30rem" }}>
             <Card.Img variant="top" src="/tavora.jpg" />
             <Card.Body>
               <Card.Title>Távora</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </Card.Text>
 
               <img
                 id="localImg"
@@ -914,17 +1022,22 @@ class About extends Component {
                   )
                 }
               />
+              <Card.Text>
+                Esta é, pela sua História, uma das freguesias mais emblemáticas
+                do concelho de Tabuaço. Foi vila e sede de concelho até ao séc.
+                XIX. A sua História está intimamente ligada aos Távoras e à
+                Quinta do Convento de S. Pedro das Águias, hoje uma quinta
+                particular produtora de vinho. De Távora são também famosas as
+                cerejas, produzidas em quantidade e de excelente qualidade sendo
+                a sua produção uma das actividades essenciais na freguesia.
+              </Card.Text>
             </Card.Body>
           </Card>
 
-          <Card id="myCard" style={{ width: "18rem" }}>
+          <Card id="myCard" style={{ width: "30rem" }}>
             <Card.Img variant="top" src="/valedefigueira.jpg" />
             <Card.Body>
               <Card.Title>Vale de Figueira</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </Card.Text>
 
               <img
                 id="localImg"
@@ -955,17 +1068,27 @@ class About extends Component {
                   )
                 }
               />
+              <Card.Text>
+                Enquanto aldeia, extremamente acolhedora e com traços beirãos,
+                já existia no séc. XIII. Encontra-se rodeada por belos campos
+                onde se cultiva o centeio, lavram-se as hortas e apanha-se a
+                baga do sabugueiro. Diversas figueiras, que justamente
+                emprestaram o nome à povoação, ladeiam os caminhos. Para os
+                apreciadores da arqueologia portuguesa, é interessante notar que
+                alguns tesouros arqueológicos têm sido encontrados nesta
+                freguesia, como por exemplo uma cabeça de guerreiro esculpida em
+                granito, provavelmente da Idade do Ferro, o lagar
+                romano/medieval do Negrio, ou ainda a Estátua-Menir do Alto da
+                Escrita, esculpida provavelmente entre o Período Calcolítico e a
+                Idade do Bronze.
+              </Card.Text>
             </Card.Body>
           </Card>
 
-          <Card id="myCard" style={{ width: "18rem" }}>
+          <Card id="myCard" style={{ width: "30rem" }}>
             <Card.Img variant="top" src="/valencadodouro.jpg" />
             <Card.Body>
               <Card.Title>Valença do Douro</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </Card.Text>
 
               <img
                 id="localImg"
@@ -993,6 +1116,16 @@ class About extends Component {
                   window.open("https://www.facebook.com/valdouro", "_blank")
                 }
               />
+              <Card.Text>
+                Foi Vila e sede de concelho entre 1514 e 1863. Constituído pelas
+                freguesias de Desejosa, Valença do Douro, Casais e Sarzedinho. A
+                atestar a sua municipalidade ainda estão a casac da Câmara, a
+                cadeia e o pelourinho. Em pleno coração do Alto Douro domina um
+                vale de rara beleza paisagística. É a primeira produtora de
+                Vinho Fino do Concelho. O azeite e a amêndoa são algumas das
+                actividades agrícolas que ocupam a maioria das gentes desta
+                terra.
+              </Card.Text>
             </Card.Body>
           </Card>
         </div>
@@ -1035,6 +1168,14 @@ function getConcelho(e) {
 
 function getTurismo(e) {
   history.push("/Turismo");
+}
+
+function getContatos(e){
+  history.push("/Contatos")
+}
+
+function getAssosiacao(e){
+  history.push("/Associacoes")
 }
 
 /*

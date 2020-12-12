@@ -64,7 +64,7 @@ function News() {
             >
               turismo
             </Nav.Link>
-            <Nav.Link id="links" style={{ color: "white", fontSize: "20px" }}>
+            <Nav.Link id="links" style={{ color: "white", fontSize: "20px" }} onClick={getAssosiacao}> 
               associações
             </Nav.Link>
             <Nav.Link
@@ -74,7 +74,7 @@ function News() {
             >
               concelho
             </Nav.Link>
-            <Nav.Link id="links" style={{ color: "white", fontSize: "20px" }}>
+            <Nav.Link id="links" style={{ color: "white", fontSize: "20px" }} onClick={getContatos}>
               links e contatos
             </Nav.Link>
             <Nav.Link
@@ -173,7 +173,7 @@ function News() {
 
         </Col>
 
-        <Col xs="auto">
+        {/*<Col xs="auto">
 
         <div
         style={{
@@ -226,7 +226,7 @@ function News() {
       </div>
          
 
-        </Col>
+          </Col>*/}
 
       </Row>
       
@@ -270,6 +270,14 @@ function getNews(e) {
 
 function getTurismo(e) {
   history.push("/Turismo");
+}
+
+function getContatos(e){
+  history.push("/Contatos")
+}
+
+function getAssosiacao(e){
+  history.push("/Associacoes")
 }
 
 function goToCarddetails(newsSingleCard) {
